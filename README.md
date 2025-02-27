@@ -3,8 +3,7 @@
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 ## Env
-
-change value of `VITE_API_URL` in `.env` file to your API url
+create file .env in root folder and add value of `VITE_API_URL` in `.env` file to your API url
 
 ## Available Scripts
 
