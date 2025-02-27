@@ -1,0 +1,81 @@
+{
+	"name": "frontend-daya-solusi",
+	"version": "1.0.0",
+	"type": "module",
+	"private": true,
+	"dependencies": {
+		"@heroui/button": "^2.2.10",
+		"@heroui/progress": "^2.2.7",
+		"@heroui/skeleton": "^2.2.6",
+		"@heroui/system": "^2.4.7",
+		"@heroui/theme": "^2.4.6",
+		"@types/react": "19.0.0",
+		"@types/react-dom": "19.0.0",
+		"axios": "^1.7.9",
+		"classnames": "^2.5.1",
+		"dayjs": "^1.11.13",
+		"framer-motion": "^11.18.2",
+		"react": "19.0.0",
+		"react-dom": "19.0.0",
+		"react-icons": "^5.4.0",
+		"react-router": "^7.1.1",
+		"sonner": "^1.7.0",
+		"web-vitals": "^2.1.4"
+	},
+	"scripts": {
+		"dev": "vite",
+		"build:staging": "vite build --mode staging",
+		"build": "vite build --mode production",
+		"lint": "eslint .",
+		"lint:watch": "chokidar 'src/**/*.{js,jsx,ts,tsx}' -c 'eslint src'",
+		"preview": "vite preview"
+	},
+	"eslintConfig": {
+		"extends": [
+			"react-app",
+			"react-app/jest"
+		]
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	},
+	"devDependencies": {
+		"@eslint/js": "^9.17.0",
+		"@types/axios": "^0.14.4",
+		"@typescript-eslint/eslint-plugin": "^8.19.0",
+		"@typescript-eslint/parser": "^8.19.0",
+		"@vitejs/plugin-react": "^4.3.4",
+		"@vitejs/plugin-vue": "^5.2.1",
+		"autoprefixer": "^10.4.20",
+		"eslint": "^9.17.0",
+		"eslint-config-prettier": "^9.1.0",
+		"eslint-plugin-import": "^2.31.0",
+		"eslint-plugin-jsx-a11y": "^6.10.2",
+		"eslint-plugin-prettier": "^5.2.1",
+		"eslint-plugin-react": "^7.37.3",
+		"eslint-plugin-react-hooks": "^5.1.0",
+		"eslint-plugin-react-refresh": "^0.4.16",
+		"eslint-plugin-tailwindcss": "^3.17.5",
+		"eslint-plugin-unused-imports": "^4.1.4",
+		"globals": "^15.14.0",
+		"postcss": "^8.4.49",
+		"prettier": "^3.4.2",
+		"prettier-plugin-tailwindcss": "^0.6.9",
+		"tailwindcss": "^3.4.17",
+		"typescript": "^5.7.2",
+		"typescript-eslint": "^8.18.2",
+		"vite": "^6.0.7",
+		"vite-plugin-eslint": "^1.8.1",
+		"vite-tsconfig-paths": "^5.1.4"
+	},
+	"proxy": "http://157.66.14.114:5003/oxysystem-api-grandbumimas"
+}
